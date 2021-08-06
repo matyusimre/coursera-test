@@ -1,4 +1,6 @@
 /* module2-solution CSS */
+
+/* --- CSS reset --- */
 *{
   padding:0;
   margin:0;
@@ -9,19 +11,39 @@ body{
   margin:0;
 }
 
+/* --- General --- */
+
+section{
+  float: left;
+}
+
 /* --- Media Queries --- */
 
 /* Mobile */
-@media screen and (max-width:767px) {
+@media screen and (max-width:767px){
 
+  section{
+    width: 100%;
+    float: none;
+    clear: both;
+  }
 }
 
 /* Tablet */
-@media (min-width:768px and max-width: 991px) {
+@media (min-width:768px and max-width: 991px){
+
+  section{
+    width: 50%;
+  }
+
+  section.sushi{
+    width: 100%
+    clear: both;
+  }
 
 }
 
 /* Destop */
-@media (min-width:992px) {
+@media (min-width:992px){
 
 }
