@@ -14,6 +14,9 @@ body{
 /* --- General --- */
 
 section{
+}
+
+article{
   float: left;
 }
 
@@ -22,7 +25,7 @@ section{
 /* Mobile */
 @media screen and (max-width:767px){
 
-  section{
+  article{
     width: 100%;
     float: none;
     clear: both;
@@ -32,11 +35,11 @@ section{
 /* Tablet */
 @media (min-width:768px and max-width: 991px){
 
-  section{
+  article{
     width: 50%;
   }
 
-  section.sushi{
+  article.sushi{
     width: 100%
     clear: both;
   }
