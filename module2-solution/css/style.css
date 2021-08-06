@@ -48,5 +48,7 @@ article{
 
 /* Destop */
 @media (min-width:992px){
-
+  article{
+    width: 33%;
+  }
 }
